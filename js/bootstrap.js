@@ -4443,3 +4443,13 @@
 
 
 
+
+// Sayt yuklangandan so'ng loading screenni yashirish
+window.onload = function() {
+  setTimeout(function() {
+      // Loading ekranini yashirish
+      document.getElementById('loading-screen').style.display = 'none';
+      // Asosiy kontentni ko'rsatish
+      document.getElementById('main-content').style.display = 'block';
+  }, 2000);  // 2 soniya kutish
+};
