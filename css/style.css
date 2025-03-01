@@ -2,7 +2,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
-  background-color: #ffffff;
+  background-color: #ece8e8;
   overflow-x: hidden;
 }
 
@@ -307,7 +307,7 @@ a:focus {
   display: inline-block;
   padding: 10px 15px;
   background-color: #00bbf0;
-  color: #ffffff;
+  color: #a55c5c;
   border-radius: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -315,7 +315,7 @@ a:focus {
 }
 
 .slider_section .detail-box .btn-box .btn1:hover {
-  background-color: #007fa4;
+  background-color: #ffffff;
 }
 
 .slider_section .detail-box .btn-box .btn2 {
@@ -943,32 +943,6 @@ img {
 }
 
 
-/* Loading ekranining umumiy ko'rinishi */
-#loading-screen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 9999;
-}
 
-/* Loader animatsiyasi */
-.loader {
-  border: 16px solid #f3f3f3;
-  border-top: 16px solid #3498db;
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  animation: spin 2s linear infinite;
-}
 
-/* Loaderning aylanishi uchun animatsiya */
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
+
